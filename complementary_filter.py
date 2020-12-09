@@ -12,14 +12,10 @@ Refer to the following videos of Brian Douglas for the Control theory:
 # External imports
 import pandas as pd
 import numpy as np
-from numpy import rad2deg as r2d
 import matplotlib.pyplot as plt
+from numpy import rad2deg as r2d
 from scipy.interpolate import interp1d
 from scipy.integrate import cumtrapz
-
-# Local imports
-from utils import load_data
-from config import FILENAME
 
 
 ###############################################################################
